@@ -1,3 +1,3 @@
 USE database
 
-Select Col FROM Table Where Col > 0; 
+Select Col1 FROM Table Where Col2 > 0; 
