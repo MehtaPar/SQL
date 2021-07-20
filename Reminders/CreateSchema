@@ -1,0 +1,7 @@
+CREATE SCHEMA [Streaming] Authorization [dbo]
+
+GO
+
+GRANT VIEW DEFINITION, SELECT ON SCHEMA :: [Streaming] TO [Stream];
+
+GO
