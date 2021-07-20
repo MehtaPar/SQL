@@ -1,0 +1,6 @@
+SELECT * FROM dbo.Staging_CurrentInventory WHERE UniqueID = 10000404;
+
+UPDATE RSCQuantityOnHand 
+SET QuantityOnHand = 197,
+ReviseDate = GETDATE()
+WHERE UniqueID = 10000404;
