@@ -1,0 +1,6 @@
+/*SQL select query from a user side. Cannot access tables as a user. */
+/*Note instead of dbo. its Streaming. to access the database from the view */
+
+USE Inventory
+
+SELECT SKU FROM Streaming.RSCQuantityOnHand WHERE RSCNumericID > 4;
