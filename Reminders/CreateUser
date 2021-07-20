@@ -1,0 +1,7 @@
+CREATE LOGIN [/*username*/] WITH PASSWORD = '/*password here*/'
+
+GO
+
+CREATE USER [/*username*/] FOR LOGIN [/*username*/];
+
+GO
