@@ -1,0 +1,4 @@
+/* add script to security folder */
+
+CREATE ROLE [Stream] AUTHORIZATION [dbo];
+GO;
