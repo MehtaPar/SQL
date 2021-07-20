@@ -1,0 +1,3 @@
+USE database
+
+Select Col FROM Table Where Col > 0; 
