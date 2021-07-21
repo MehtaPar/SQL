@@ -1,0 +1,19 @@
+/*file naming convention vw_FileName*/
+
+CREATE VIEW [Streaming].[ItemCostStock]
+AS
+SELECT CAST([MAPPRetail] AS NUMERIC (7, 2)) AS 'MAPPRetail',
+  CAST([RetailPrice] AS NUMERIC (7, 2)) AS 'RetailPrice',
+  CAST([DirectCost] AS NUMERIC (7, 2)) AS 'DirectCost',
+  CAST([LandedCost] AS NUMERIC (7, 2)) AS 'LandedCost',
+  CAST([Mult1Margin] AS NUMERIC (3, 3)) AS 'Multi1Margin',
+  CAST([Mult1VisionCost] AS NUMERIC (9, 4)) AS 'Multi1VisionCost',
+  CAST([Mult1ClassicCost] AS NUMERIC (9, 4)) AS 'Multi1ClassicCost',
+  CAST([Mult2Margin] AS NUMERIC (3, 3)) AS 'Multi2Margin',
+  CAST([Mult2VisionCost] AS NUMERIC (9, 4)) AS 'Multi2VisionCost',
+  CAST([Mult2ClassicCost] AS NUMERIC (9, 4)) AS 'Multi2ClassicCost',
+  CAST([Mult3Margin] AS NUMERIC (3, 3))AS 'Multi3Margin',
+  CAST([Mult3VisionCost] AS NUMERIC (9, 4))AS 'Multi3VisionCost',
+  CAST([Mult3ClassicCost] AS NUMERIC (9, 4)) AS 'Multi3ClassicCost'
+  FROM [dbo].[ItemCostStock]
+GO
