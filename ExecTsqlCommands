@@ -1,0 +1,3 @@
+EXEC tsqlt.Run '[Test Schema Metadata].[Test ActiveDirectoryUser Metadata]'
+
+EXEC tsqlt.RunAll
