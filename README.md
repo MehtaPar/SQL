@@ -11,3 +11,5 @@ The order they are being added to follow along with the progress is
 2. CreateTableCols.sql     creates table columns.
 3. AppDelCol.sql           creates and appends a table by altering the table 
 4. ForeignKey.sql          creates the console table and adds a foreign key to the game table connecting the two tables.
+
+param was here #paramvirus
